@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     <div className="App">
-      {/* Add imported components here to render them */}
+      {/* Add imported components here to render them */}<h1>Hey Guys</h1>
     </div>
   );
 };
