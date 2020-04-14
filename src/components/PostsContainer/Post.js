@@ -11,8 +11,8 @@ const Post = props => {
   // set up state for the likes
   const [likes, setLikeCount] = useState(props.post.likes); 
   const likeSetter =  () => {
-    console.log("function active")
-    console.log(likes)
+    // console.log("function active")
+    // console.log(likes)
     return setLikeCount(likes + 1)
   }
   return (
