@@ -8,7 +8,6 @@ import dummyData from '../../dummy-data'
 
 const PostsPage = () => {
   // set up state for your data
-  // console.log("in PostPage component")
   const [post, setData] = useState(dummyData)
   console.log(post);
   return (
