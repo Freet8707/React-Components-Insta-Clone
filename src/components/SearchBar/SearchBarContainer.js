@@ -3,7 +3,6 @@ import React from "react";
 import "./SearchBar.css";
 
 const SearchBar = () => {
-  console.log("inside search bar component");
   return (
     <div className="search-bar-wrapper">
       <div className="image-wrapper">
